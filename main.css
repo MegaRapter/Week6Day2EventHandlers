@@ -1,0 +1,20 @@
+body {
+    background: #eee;
+    margin: 2rem;
+}
+
+:root {--length: 5rem;}
+
+.row {text-align: center;}
+
+.box {
+    display: inline-block;
+    background-color: #333;
+    margin: calc(var(--length) / 10);
+    width: var(--length);
+    height: var(--length);
+}
+
+.colorChange {
+    background: #999;
+}
